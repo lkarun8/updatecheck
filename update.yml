@@ -1,7 +1,7 @@
 ---
 - name: check for updates
   hosts: 10.2.59.223
-  became: true
+  become: true
   gather_facts: true
 
   tasks:
