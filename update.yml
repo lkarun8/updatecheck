@@ -1,6 +1,6 @@
 ---
 - name: check for updates
-  hosts: 10.2.59.223
+  hosts: ser1
   become: true
   gather_facts: true
 
